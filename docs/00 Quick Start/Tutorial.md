@@ -1,4 +1,4 @@
-Tutorial
+higher-order componentTutorial
 ===================
 
 Now that you've read [the overview](docs-overview.html), it's the adventure time! Even if you have not, you can skip it for now, because ⅔ of our time we'll be busy identifying and building normal React components, just like in the classic [Thinking in React](https://facebook.github.io/react/blog/2013/11/05/thinking-in-react.html) tutorial. Adding the drag and drop support is just the icing on the cake.
@@ -1039,7 +1039,7 @@ export const ItemTypes = {
 
 The preparation work is done now. Let's make the `Knight` draggable!
 
-The [`DragSource`](http://localhost:8080/docs-drag-source.html) higher-order component accepts three parameters: `type`, `spec`, and `collect`. Our `type` is the constant we just defined, so now we need to write a drag source specification and a collecting function. For the `Knight`, the drag source specification is going to be ridiculously simple:
+The [`DragSource`](docs-drag-source.html) higher-order component accepts three parameters: `type`, `spec`, and `collect`. Our `type` is the constant we just defined, so now we need to write a drag source specification and a collecting function. For the `Knight`, the drag source specification is going to be ridiculously simple:
 
 -------------------
 ```js
